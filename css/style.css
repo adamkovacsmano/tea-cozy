@@ -1,4 +1,4 @@
-*{
+body{
   font-family: helvetica;
   font-size: 22px;
   color: seashell;
@@ -18,11 +18,11 @@
   position: fixed;
   z-index: 1;
   width: 100%;
+  background-color: black;
 }
 
 .logo img{
   margin-left: 10px;
-  margin-top: 8px;
 }
 
 .navi{
@@ -34,6 +34,7 @@
 }
 
 .container{
+
 }
 
 .mission{
@@ -56,6 +57,16 @@ h2{
   font-weight: bold;
 }
 
+h3{
+  display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
 .photo-grid-container{
   display: flex;
   justify-content: center;
@@ -76,4 +87,38 @@ h2{
 
 .photo-grid img{
   margin-right: 22px;
+}
+
+.location{
+  background-image: url("../resources/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+}
+
+.location-block{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+  }
+
+.block{
+  display: flex;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  margin: 20px;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.block h3, h4{
+  margin-top: 20px;
+  padding: -10px;
 }
