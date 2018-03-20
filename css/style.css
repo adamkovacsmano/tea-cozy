@@ -5,6 +5,7 @@
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .header{
@@ -15,10 +16,13 @@
   border-bottom: 1px solid seashell;
   height: 69px;
   position: fixed;
+  z-index: 1;
+  width: 100%;
 }
 
 .logo img{
   margin-left: 10px;
+  margin-top: 8px;
 }
 
 .navi{
@@ -27,4 +31,49 @@
 
 .navi span{
   padding-right: 10px;
+}
+
+.container{
+}
+
+.mission{
+  background-image: url("../resources/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+h2{
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.photo-grid-container{
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid{
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.photo-grid h4{
+  margin-top: 10px;
+}
+
+.photo-grid img{
+  margin-right: 22px;
 }
