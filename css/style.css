@@ -24,6 +24,9 @@ body{
 
 header.header{
   margin-top: -69px;
+  ont-family: helvetica;
+  font-size: 22px;
+  color: seashell;
 }
 
 .logo img{
@@ -38,9 +41,6 @@ header.header{
 .navi span{
   padding-right: 10px;
   text-decoration: underline;
-  font-family: helvetica;
-  font-size: 22px;
-  color: seashell;
 }
 
 .mission{
