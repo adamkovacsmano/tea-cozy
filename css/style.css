@@ -16,11 +16,14 @@ body{
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid seashell;
-  height: 69px;
   position: fixed;
-  z-index: 1;
+  height: 69px;
   width: 100%;
   background-color: black;
+}
+
+header.header{
+  margin-top: -69px;
 }
 
 .logo img{
@@ -48,6 +51,7 @@ body{
   justify-content: center;
   flex-direction: column;
   margin: auto;
+  margin-top: 69px;
 }
 
 .mission div{
